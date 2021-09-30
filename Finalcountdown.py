@@ -7,15 +7,24 @@ while number > -1:
   number = number - 1
   time.sleep(0.01)
 
-from PIL import Image
+print("""\
+
+
+        _ ._  _ , _ ._
+        (_ ' ( `  )_  .__)
+      ( (  (    )   `)  ) _)
+     (__ (_   (_ . _) _) ,__)
+         `~~`\ ' . /`~~`
+              ;   ;
+              |   |
+_____________/_ __ \_____________ 
+""")
+
+
+
+
   
-try: 
-    img  = Image.open(path) 
-except IOError:
-    pass
-filename = "explosion.jpg"
-with Image.open(filename) as image:
-    width, height = image.size
+ 
 
 
 
